@@ -8,7 +8,7 @@ public class ConnectionJDBC {
 	
 	public static Connection CreateCon() {
 		try {
-		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/LibraryManagement","root","nikam");
+		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/LibraryManagement1","root","nikam");
 		if(con.isClosed()) {
 			System.out.println("connection is not created ");
 		}else {
